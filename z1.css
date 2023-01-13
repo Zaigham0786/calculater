@@ -1,0 +1,129 @@
+#calci
+{
+  width: 400px;
+  height: 700px;
+  background-color: 	#FFFFF0;  
+  margin: auto; 
+  border: 2px solid cyan;
+  border-radius: 28px;
+  overflow: hidden;
+}
+#btn1
+{
+    width: 104px;
+    border: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    padding-top: 15px;
+    border-radius: 20px;
+   
+
+}
+#box1
+{
+
+    margin-top: 0;
+    background-color:	#FFFFF0;
+    height:320px;
+}
+#dark
+{
+  cursor: pointer;
+  width: 52px;
+  height: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border: 0;
+}
+#light
+{
+    background-color: #404040;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 52px;
+    height: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 0;
+}
+
+#ans
+{
+    border: 2px solid black;
+    font-size: 40px;
+    width: 300px;
+    height: 70px;
+    margin-top: 120px;
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: -7px 8px 13px lightgrey;
+
+}
+
+#btn
+{
+    height: 350px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+}
+#box2
+{
+    background-color: #FFE4E1;
+    height: 400px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+#box3
+{
+    margin-left: 30px;
+    padding-top: 10px;
+}
+#box3 input
+{ 
+
+    background-color: white;
+    width: 78px;
+    padding: 13px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#box3 input:hover
+{
+    box-shadow: 2px 15px 10px 1px grey;
+    scale: 1.01;
+    transition: 320ms ease-out;
+}
+#box3 button
+{
+    cursor: pointer;
+    background-color: white;
+    width: 78px;
+    padding: 13px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 20px;
+}
+#box3 button:hover
+{
+    box-shadow: 2px 15px 10px 1px grey;
+    scale: 1.0;
+    transition: 320ms ease-out; 
+}
+#ac:hover
+{
+    color: red;
+}
+#del:hover
+{
+    color: red;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="z1.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div id="calci">
+    <div id="box1">
+        <div id="btn1">
+        <button id="dark"><i class="ri-moon-line"></i></button>
+        <button id="light"><i class="ri-sun-line"></i></button>
+        </div>
+        <div id="input">  
+            <input type="text" id="ans" placeholder="0"><br><br>
+        </div>
+    </div>
+    
+        <div id="box2">
+         <div id="box3">
+            <input type="button" value="AC" id="ac" onclick="document.getElementById('ans').value='';"> 
+            <input type="button" value="%" id="per"  onclick="document.getElementById('ans').value+=document.
+            getElementById('per').value;"> 
+            <input type="button" value="/" id="div"  onclick="document.getElementById('ans').value+=document.
+            getElementById('div').value;">  
+            <input type="button" value="+" id="plus"  onclick="document.getElementById('ans').value+=document.
+            getElementById('plus').value;"> 
+
+            <input type="button" value="1" id="one" onclick="document.getElementById('ans').value+=document.
+            getElementById('one').value;"> 
+            <input type="button" value="2" id="two"  onclick="document.getElementById('ans').value+=document.
+            getElementById('two').value;"> 
+            <input type="button" value="3" id="three"  onclick="document.getElementById('ans').value+=document.
+            getElementById('three').value;">  
+            <input type="button" value="-" id="minus"  onclick="document.getElementById('ans').value+=document.
+            getElementById('minus').value;"> 
+
+            <br>
+            <input type="button" value="4" id="four"  onclick="document.getElementById('ans').value+=document.
+            getElementById('four').value;"> 
+            <input type="button" value="5" id="five"  onclick="document.getElementById('ans').value+=document.
+            getElementById('five').value;"> 
+            <input type="button" value="6" id="six"  onclick="document.getElementById('ans').value+=document.
+            getElementById('six').value;"> 
+            <input type="button" value="*" id="multi"  onclick="document.getElementById('ans').value+=document.
+            getElementById('multi').value;"> 
+            <br>
+            <input type="button" value="7" id="seven"  onclick="document.getElementById('ans').value+=document.
+            getElementById('seven').value;"> 
+            <input type="button" value="8" id="eight"  onclick="document.getElementById('ans').value+=document.
+            getElementById('eight').value;"> 
+            <input type="button" value="9" id="nine"  onclick="document.getElementById('ans').value+=document.
+            getElementById('nine').value;"> 
+            <input type="button" value="=" id="equal"  onclick="document.getElementById('ans').value=eval(document.getElementById('ans').value);"> 
+            <br>
+            <input type="button" value="." id="dota"  onclick="document.getElementById('ans').value+=document.
+            getElementById('dota').value;"> 
+            <input type="button" value="0" id="zero"  onclick="document.getElementById('ans').value+=document.
+            getElementById('zero').value;"> 
+            <button id="del" onclick="document.getElementById('ans').value=ans.value.slice(0, -1)"><i class="ri-delete-back-2-line"></i></button>
+         </div>
+        </div>
+    </div>
+<script src="z1.js"></script>
+</body>
+</html>
